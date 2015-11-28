@@ -1,0 +1,147 @@
+body {
+    overflow-x: hidden;
+}
+
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgba(0,0,0,0.8);
+    transition: opacity 0.5s;
+    opacity: 1;
+    z-index: 1000;
+}
+
+.navigation-btn {
+    display: inline-block;
+    padding: 1vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    border-bottom: 4px solid transparent;
+    opacity: 1;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+.navigation-btn:hover {
+    text-decoration: none;
+    border-bottom: 4px solid #337AB7;
+}
+
+
+.tile {
+    width: 100%;
+    text-align: center;
+    padding: 10vh;
+}
+
+.tile.tile-shadow {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.school {
+    font-size: 2vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.part {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.wrapper {
+    padding: 0;
+    overflow: hidden;
+}
+
+#find {
+    margin-bottom: 90vh;
+}
+
+.splash {
+    margin-left: 25%;
+    text-align: left !important;
+    padding: 4vh;
+    font-size: 6vw;
+    color: #2D3033;
+}
+
+#hem {
+    background-image: url(./business.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 26vh;
+    padding-bottom: 26vh;
+}
+
+#isverige {
+    background-color: #FFF568;
+    color: #2D3033;
+}
+
+#isverige .part-header {
+    margin-left: 0;
+}
+
+#programmet {
+    background-color: #FFFFFF;
+}
+
+#alumner {
+    background-color: #0AA0D9;
+    color: #FFFFFF;
+}
+
+.alumni-wrapper {
+    text-align: center;
+}
+
+.alumni {
+    background-color: white;
+    display: inline-block;
+    color: #2D3033;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 2px 2px 30px;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 10vh;
+    vertical-align: top;
+}
+
+.alumni-image {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+}
+
+.alumni-name {
+    font-size: 1.6vw;
+}
+
+.alumni-text {
+    width: 10vw;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    background-color: rgb(125,125,125);
+}
+
+.lead {
+    width: 50vw;
+    margin-left: 15vw;
+}
+
+.part-header {
+    margin-bottom: 40px;
+    text-align: center;
+}
