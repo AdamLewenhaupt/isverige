@@ -1,5 +1,16 @@
+@font-face {
+    font-family: Chasing;
+    src: url(./chasing.ttf);
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url(./bebas.otf);
+}
+
 body {
     overflow-x: hidden;
+    font-family: 'Open Sans' sans-serif;
 }
 
 .navigation {
@@ -15,6 +26,7 @@ body {
 }
 
 .navigation-btn {
+    color: #0AA0D9;
     display: inline-block;
     padding: 1vw;
     margin-left: 2vw;
@@ -27,7 +39,8 @@ body {
 
 .navigation-btn:hover {
     text-decoration: none;
-    border-bottom: 4px solid #337AB7;
+    color: white;
+    border-bottom: 4px solid #0AA0D9;
 }
 
 
@@ -64,15 +77,16 @@ body {
 }
 
 .splash {
+    font-family: Chasing;
     margin-left: 25%;
     text-align: left !important;
     padding: 4vh;
     font-size: 6vw;
-    color: #2D3033;
+    color: #0AA0D9;
 }
 
 #hem {
-    background-image: url(./business.jpg);
+    background-image: url(./background.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding-top: 26vh;
@@ -95,6 +109,8 @@ body {
 #alumner {
     background-color: #0AA0D9;
     color: #FFFFFF;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .alumni-wrapper {
@@ -102,30 +118,24 @@ body {
 }
 
 .alumni {
-    background-color: white;
     display: inline-block;
-    color: #2D3033;
-    border-radius: 4px;
     padding: 20px;
-    box-shadow: 2px 2px 30px;
     margin-left: 6vw;
     margin-right: 6vw;
-    margin-top: 10vh;
+    margin-top: 6vh;
     vertical-align: top;
 }
 
 .alumni-image {
-    width: 10vw;
-    height: 10vw;
+    width: 16vw;
+    height: 16vw;
     border-radius: 50%;
+    box-shadow: 2px 2px 30px #2D3033;
 }
 
 .alumni-name {
-    font-size: 1.6vw;
-}
-
-.alumni-text {
-    width: 10vw;
+    font-size: 2vw;
+    width: 16vw;
 }
 
 .image {
@@ -137,6 +147,7 @@ body {
 }
 
 .lead {
+    text-align: center;
     width: 50vw;
     margin-left: 15vw;
 }
